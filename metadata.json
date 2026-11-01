@@ -1,0 +1,6 @@
+{
+  "name": "SHIVANANDI TRADERS - Fast Delivery Mysuru",
+  "description": "Premium fitness nutrition, whey protein, organic seeds & dry fruits, healthy snacks, and gym essentials delivered in minutes across Mysuru.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

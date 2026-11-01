@@ -1,0 +1,959 @@
+{
+  "warehouse": {
+    "name": "SHIVANANDI TRADERS Central Warehouse",
+    "address": "Plot #42, Industrial Suburb, 2nd Stage, Saraswathipuram / Kuvempunagar, Mysuru, Karnataka 570009",
+    "lat": 12.3015,
+    "lng": 76.638,
+    "maxDeliveryRadiusKm": 20,
+    "freeDeliveryThreshold": 799,
+    "distanceSlabs": [
+      {
+        "minKm": 0,
+        "maxKm": 3,
+        "charge": 25
+      },
+      {
+        "minKm": 3,
+        "maxKm": 7,
+        "charge": 45
+      },
+      {
+        "minKm": 7,
+        "maxKm": 12,
+        "charge": 75
+      },
+      {
+        "minKm": 12,
+        "maxKm": 20,
+        "charge": 120
+      }
+    ],
+    "contactNumber": "7892566419",
+    "workingHours": "06:00 AM - 11:30 PM",
+    "codEnabled": false,
+    "logoUrl": "/assets/aistudio/WhatsApp_Image_2026-10-31_at_6.16.19_AM_35de1c8d.jpeg",
+    "upiId": "7892566419@ybl",
+    "notificationPhone": "7892566419",
+    "soundAlertsEnabled": true,
+    "supabaseProjectId": "aswuluewjyvdzynfcsbg",
+    "supabaseUrl": "https://aswuluewjyvdzynfcsbg.supabase.co",
+    "supabaseKey": "sb_publishable_8h2i9nqlwCDolPerd5jzXA_Fo7FaG-C"
+  },
+  "categories": [
+    {
+      "id": "cat-protein",
+      "name": "PROTEIN & FITNESS",
+      "description": "Whey protein, plant isolate, amino acids, creatine and high-protein nutrition",
+      "icon": "Dumbbell",
+      "image": "/src/assets/images/product_whey_protein_1793517247259.jpg",
+      "itemCount": 6
+    },
+    {
+      "id": "cat-seeds",
+      "name": "SEEDS & DRY FRUITS",
+      "description": "Fresh Californian almonds, chia, flax, pumpkin seeds, walnuts and rich dates",
+      "icon": "Wheat",
+      "image": "/src/assets/images/product_seeds_nuts_1793517247929.jpg",
+      "itemCount": 8
+    },
+    {
+      "id": "cat-meals",
+      "name": "READY-TO-EAT FOOD",
+      "description": "Quick nutritious breakfasts, rolled oats, high-protein meal packs & bowls",
+      "icon": "Utensils",
+      "image": "/src/assets/images/product_healthy_snacks_1793517248810.jpg",
+      "itemCount": 4
+    },
+    {
+      "id": "cat-snacks",
+      "name": "HEALTHY SNACKS",
+      "description": "Foxnut makhana, natural peanut butter, protein cookies and roasted seeds",
+      "icon": "Cookie",
+      "image": "/src/assets/images/product_healthy_snacks_1793517248810.jpg",
+      "itemCount": 5
+    },
+    {
+      "id": "cat-chocolates",
+      "name": "CHOCOLATES",
+      "description": "85% single origin dark chocolate, sugar-free bars & protein cacao snacks",
+      "icon": "Sparkles",
+      "image": "/src/assets/images/product_healthy_snacks_1793517248810.jpg",
+      "itemCount": 4
+    },
+    {
+      "id": "cat-accessories",
+      "name": "GYM ACCESSORIES",
+      "description": "Insulated stainless shaker bottles, 2L gallon sippers and fitness gear",
+      "icon": "Flame",
+      "image": "/src/assets/images/product_gym_shaker_1793517248283.jpg",
+      "itemCount": 4
+    }
+  ],
+  "products": [
+    {
+      "id": "p-whey-gold",
+      "name": "AURA Gold Series 100% Whey Isolate",
+      "categoryId": "cat-protein",
+      "categoryName": "PROTEIN & FITNESS",
+      "price": 5499,
+      "discountPrice": 4899,
+      "description": "Ultra-pure micro-filtered whey protein isolate imported directly. Packed with 27g protein and 6.2g BCAAs per scoop with zero added sugars. Ultra-fast digestion for post-workout muscle repair.",
+      "weight": "2.2 kg (4.85 lbs)",
+      "ingredients": "Whey Protein Isolate, Cocoa Powder, Natural Dark Chocolate Flavors, Digestive Enzyme Complex (DigeZyme), Stevia Leaf Extract.",
+      "nutritionalInfo": {
+        "protein": "27g",
+        "calories": "118 kcal",
+        "carbs": "1.2g",
+        "fats": "0.4g",
+        "fiber": "0.5g"
+      },
+      "expiryDate": "2027-09-30",
+      "stock": 27,
+      "rating": 4.9,
+      "reviewCount": 142,
+      "images": [
+        "/src/assets/images/product_whey_protein_1793517247259.jpg",
+        "/src/assets/images/hero_shivanandi_delivery_1793517246862.jpg"
+      ],
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+      "tags": [
+        "Bestseller",
+        "Gym Essential",
+        "Fast Delivery"
+      ],
+      "isFeatured": true
+    },
+    {
+      "id": "p-plant-protein",
+      "name": "Raw Plant-Based Organic Protein Blend",
+      "categoryId": "cat-protein",
+      "categoryName": "PROTEIN & FITNESS",
+      "price": 2699,
+      "discountPrice": 2199,
+      "description": "100% Vegan pea and organic brown rice protein infused with antioxidants and green superfoods. Dairy-free, lactose-free and gentle on digestion.",
+      "weight": "1.0 kg (2.2 lbs)",
+      "ingredients": "Fermented Yellow Pea Protein, Organic Sprouted Brown Rice Protein, Organic Cocoa, Papain, Bromelain, Himalayan Pink Salt.",
+      "nutritionalInfo": {
+        "protein": "25g",
+        "calories": "124 kcal",
+        "carbs": "2.1g",
+        "fats": "1.5g",
+        "fiber": "3.0g"
+      },
+      "expiryDate": "2027-06-15",
+      "stock": 19,
+      "rating": 4.8,
+      "reviewCount": 88,
+      "images": [
+        "/src/assets/images/product_whey_protein_1793517247259.jpg"
+      ],
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyBlazes.mp4",
+      "tags": [
+        "Vegan",
+        "Trending"
+      ],
+      "isFeatured": true
+    },
+    {
+      "id": "p-creatine-pure",
+      "name": "Pure Micronized 200 Mesh Creatine",
+      "categoryId": "cat-protein",
+      "categoryName": "PROTEIN & FITNESS",
+      "price": 1199,
+      "discountPrice": 949,
+      "description": "Pharmaceutical grade 100% pure micronized creatine monohydrate. Maximizes ATP production, explosive strength, muscular endurance, and rapid recovery.",
+      "weight": "250 g",
+      "ingredients": "100% Pure Micronized Creatine Monohydrate (Unflavored)",
+      "nutritionalInfo": {
+        "protein": "0g",
+        "calories": "0 kcal",
+        "carbs": "0g",
+        "fats": "0g"
+      },
+      "expiryDate": "2027-11-20",
+      "stock": 35,
+      "rating": 4.9,
+      "reviewCount": 96,
+      "images": [
+        "/src/assets/images/hero_shivanandi_delivery_1793517246862.jpg"
+      ],
+      "tags": [
+        "Gym Essential",
+        "Strength"
+      ],
+      "isFeatured": true
+    },
+    {
+      "id": "p-electrolyte-fizz",
+      "name": "Rapid Electrolyte & Vitamin C Fizz Tabs",
+      "categoryId": "cat-protein",
+      "categoryName": "PROTEIN & FITNESS",
+      "price": 380,
+      "discountPrice": 299,
+      "description": "Instant effervescent hydration tablets with optimal sodium, potassium, magnesium balance, and Vitamin C to combat muscle cramps during intense training.",
+      "weight": "20 Tablets Tube",
+      "ingredients": "Sodium Citrate, Potassium Chloride, Magnesium Carbonate, Ascorbic Acid (Vit C), Natural Citrus Lime Flavor.",
+      "nutritionalInfo": {
+        "protein": "0g",
+        "calories": "8 kcal",
+        "carbs": "1.8g",
+        "fats": "0g"
+      },
+      "expiryDate": "2027-04-10",
+      "stock": 50,
+      "rating": 4.7,
+      "reviewCount": 64,
+      "images": [
+        "/src/assets/images/hero_shivanandi_delivery_1793517246862.jpg"
+      ],
+      "tags": [
+        "Hydration",
+        "Special Offer"
+      ]
+    },
+    {
+      "id": "p-almonds-california",
+      "name": "Premium Jumbo Californian Almonds (Badam)",
+      "categoryId": "cat-seeds",
+      "categoryName": "SEEDS & DRY FRUITS",
+      "price": 680,
+      "discountPrice": 569,
+      "description": "Crisp, whole Californian almonds packed with Vitamin E, healthy monounsaturated fats, and dietary fiber. Vacuum packed for maximum freshness and crunch.",
+      "weight": "500 g Airtight Jar",
+      "ingredients": "100% Raw Jumbo Californian Almonds",
+      "nutritionalInfo": {
+        "protein": "21g per 100g",
+        "calories": "579 kcal",
+        "carbs": "22g",
+        "fats": "50g",
+        "fiber": "12g"
+      },
+      "expiryDate": "2027-08-31",
+      "stock": 45,
+      "rating": 4.9,
+      "reviewCount": 215,
+      "images": [
+        "/src/assets/images/product_seeds_nuts_1793517247929.jpg"
+      ],
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+      "tags": [
+        "Bestseller",
+        "Daily Essential"
+      ],
+      "isFeatured": true
+    },
+    {
+      "id": "p-chia-seeds",
+      "name": "Organic Raw Black Chia Seeds",
+      "categoryId": "cat-seeds",
+      "categoryName": "SEEDS & DRY FRUITS",
+      "price": 360,
+      "discountPrice": 289,
+      "description": "Nutrient-dense raw chia seeds rich in plant-based Omega-3 fatty acids, calcium, and soluble fiber. Perfect for smoothies, oatmeal, and chia puddings.",
+      "weight": "400 g Sealed Pouch",
+      "ingredients": "100% Certified Organic Raw Chia Seeds",
+      "nutritionalInfo": {
+        "protein": "17g per 100g",
+        "calories": "486 kcal",
+        "carbs": "42g",
+        "fats": "31g",
+        "fiber": "34g"
+      },
+      "expiryDate": "2027-10-15",
+      "stock": 60,
+      "rating": 4.9,
+      "reviewCount": 178,
+      "images": [
+        "/src/assets/images/product_seeds_nuts_1793517247929.jpg"
+      ],
+      "tags": [
+        "Superfood",
+        "Bestseller"
+      ],
+      "isFeatured": true
+    },
+    {
+      "id": "p-pumpkin-seeds",
+      "name": "AAA Grade Roasted Green Pumpkin Seeds",
+      "categoryId": "cat-seeds",
+      "categoryName": "SEEDS & DRY FRUITS",
+      "price": 440,
+      "discountPrice": 349,
+      "description": "Lightly roasted crispy pumpkin seeds naturally high in zinc, magnesium, and plant protein. Great for heart health, prostate health, and sound sleep.",
+      "weight": "350 g Jar",
+      "ingredients": "AAA Grade Pepitas (Pumpkin Seeds), Himalayan Rock Salt (0.5%)",
+      "nutritionalInfo": {
+        "protein": "30g per 100g",
+        "calories": "559 kcal",
+        "carbs": "10g",
+        "fats": "49g",
+        "fiber": "6g"
+      },
+      "expiryDate": "2027-07-20",
+      "stock": 38,
+      "rating": 4.8,
+      "reviewCount": 112,
+      "images": [
+        "/src/assets/images/product_seeds_nuts_1793517247929.jpg"
+      ],
+      "tags": [
+        "Healthy Snack",
+        "Zinc Rich"
+      ]
+    },
+    {
+      "id": "p-walnuts-chilean",
+      "name": "Chilean Hand-Picked Walnut Halves (Akhrot)",
+      "categoryId": "cat-seeds",
+      "categoryName": "SEEDS & DRY FRUITS",
+      "price": 820,
+      "discountPrice": 699,
+      "description": "Golden, extra light Chilean walnut halves with extraordinary brain-boosting ALA Omega-3 fats. Never bitter, naturally crunchy and delicious.",
+      "weight": "400 g Nitrogen Flushed Pack",
+      "ingredients": "100% Chilean Walnut Kernels",
+      "nutritionalInfo": {
+        "protein": "15g per 100g",
+        "calories": "654 kcal",
+        "carbs": "14g",
+        "fats": "65g",
+        "fiber": "7g"
+      },
+      "expiryDate": "2027-05-18",
+      "stock": 22,
+      "rating": 4.9,
+      "reviewCount": 89,
+      "images": [
+        "/src/assets/images/product_seeds_nuts_1793517247929.jpg"
+      ],
+      "tags": [
+        "Brain Food",
+        "Premium Quality"
+      ],
+      "isFeatured": true
+    },
+    {
+      "id": "p-makhana-peri-peri",
+      "name": "Gourmet Roasted Peri Peri Makhana Foxnuts",
+      "categoryId": "cat-snacks",
+      "categoryName": "HEALTHY SNACKS",
+      "price": 210,
+      "discountPrice": 169,
+      "description": "Slow-roasted, ultra-crunchy fox nuts spiced with artisanal peri peri peppers and herbs. Zero trans fat, cholesterol-free, and cooked without palm oil.",
+      "weight": "150 g Fresh Pouch",
+      "ingredients": "Foxnuts (Phool Makhana), Olive Oil, Peri Peri Spices (Chili, Garlic, Onion, Black Salt, Oregano).",
+      "nutritionalInfo": {
+        "protein": "9g per 100g",
+        "calories": "347 kcal",
+        "carbs": "64g",
+        "fats": "6g",
+        "fiber": "14g"
+      },
+      "expiryDate": "2027-04-30",
+      "stock": 42,
+      "rating": 4.8,
+      "reviewCount": 134,
+      "images": [
+        "/src/assets/images/product_healthy_snacks_1793517248810.jpg"
+      ],
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+      "tags": [
+        "Bestseller",
+        "Trending"
+      ],
+      "isFeatured": true
+    },
+    {
+      "id": "p-peanut-butter-natural",
+      "name": "100% All-Natural Dark Roasted Peanut Butter",
+      "categoryId": "cat-snacks",
+      "categoryName": "HEALTHY SNACKS",
+      "price": 499,
+      "discountPrice": 399,
+      "description": "Pure slow-roasted slow-stone ground premium peanuts with 30g protein per 100g. Zero hydrogenated oils, zero refined sugar, zero preservatives.",
+      "weight": "1.0 kg Glass Jar",
+      "ingredients": "100% Slow-Roasted Indian Peanuts (Crunchy)",
+      "nutritionalInfo": {
+        "protein": "30g per 100g",
+        "calories": "588 kcal",
+        "carbs": "20g",
+        "fats": "50g",
+        "fiber": "8g"
+      },
+      "expiryDate": "2027-09-15",
+      "stock": 31,
+      "rating": 4.9,
+      "reviewCount": 167,
+      "images": [
+        "/src/assets/images/product_healthy_snacks_1793517248810.jpg"
+      ],
+      "tags": [
+        "High Protein",
+        "Bestseller"
+      ]
+    },
+    {
+      "id": "p-protein-cookies",
+      "name": "Double Cocoa Whey Protein Soft-Baked Cookies",
+      "categoryId": "cat-snacks",
+      "categoryName": "HEALTHY SNACKS",
+      "price": 320,
+      "discountPrice": 249,
+      "description": "Guilt-free gourmet cookies with 10g whey protein each. Sweetened with dates and raw stevia, perfect pre-workout or tea-time snack.",
+      "weight": "Pack of 4 (300 g)",
+      "ingredients": "Whey Protein Isolate, Whole Oat Flour, Dates, Belgian Cocoa, Almond Butter, Coconut Oil.",
+      "nutritionalInfo": {
+        "protein": "10g per cookie",
+        "calories": "140 kcal",
+        "carbs": "15g",
+        "fats": "4.5g",
+        "fiber": "4g"
+      },
+      "expiryDate": "2027-03-25",
+      "stock": 24,
+      "rating": 4.7,
+      "reviewCount": 78,
+      "images": [
+        "/src/assets/images/product_healthy_snacks_1793517248810.jpg"
+      ],
+      "tags": [
+        "Special Offer"
+      ]
+    },
+    {
+      "id": "p-rolled-oats-power",
+      "name": "Gluten-Free Jumbo Rolled Oats with Chia & Flax",
+      "categoryId": "cat-meals",
+      "categoryName": "READY-TO-EAT FOOD",
+      "price": 420,
+      "discountPrice": 349,
+      "description": "Thick rolled premium whole grain oats fortified with organic seeds. High beta-glucan fiber maintains steady energy and supports cardiovascular health.",
+      "weight": "1.0 kg Zipper Pack",
+      "ingredients": "100% Whole Grain Rolled Oats, Chia Seeds (5%), Golden Flaxseeds (5%)",
+      "nutritionalInfo": {
+        "protein": "13g per 100g",
+        "calories": "389 kcal",
+        "carbs": "66g",
+        "fats": "7g",
+        "fiber": "11g"
+      },
+      "expiryDate": "2027-10-31",
+      "stock": 40,
+      "rating": 4.8,
+      "reviewCount": 104,
+      "images": [
+        "/src/assets/images/product_seeds_nuts_1793517247929.jpg"
+      ],
+      "tags": [
+        "Breakfast",
+        "Daily Essential"
+      ]
+    },
+    {
+      "id": "p-ready-quinoa-meal",
+      "name": "Ready-to-Eat Wholesome Masala Quinoa Bowl",
+      "categoryId": "cat-meals",
+      "categoryName": "READY-TO-EAT FOOD",
+      "price": 240,
+      "discountPrice": 189,
+      "description": "Heat & eat nutritious meal cooked in olive oil with organic royal quinoa, carrots, green peas, and traditional aromatic Mysore spices. 0 preservatives.",
+      "weight": "300 g Retort Tray",
+      "ingredients": "Cooked Quinoa, Carrots, Green Peas, Virgin Olive Oil, Cumin, Mustard, Curry Leaves, Ginger, Pink Salt.",
+      "nutritionalInfo": {
+        "protein": "8g per bowl",
+        "calories": "220 kcal",
+        "carbs": "34g",
+        "fats": "5g",
+        "fiber": "6g"
+      },
+      "expiryDate": "2027-02-28",
+      "stock": 18,
+      "rating": 4.6,
+      "reviewCount": 52,
+      "images": [
+        "/src/assets/images/product_healthy_snacks_1793517248810.jpg"
+      ],
+      "tags": [
+        "Quick Meal",
+        "New"
+      ]
+    },
+    {
+      "id": "p-dark-chocolate-85",
+      "name": "Artisan 85% Single-Origin Mysore Dark Chocolate",
+      "categoryId": "cat-chocolates",
+      "categoryName": "CHOCOLATES",
+      "price": 290,
+      "discountPrice": 239,
+      "description": "Handcrafted bean-to-bar dark chocolate made from single-estate South Indian cacao beans. Rich in polyphenols and magnesium with notes of roasted hazelnut.",
+      "weight": "100 g Luxury Bar",
+      "ingredients": "Organic Cacao Beans (85%), Cacao Butter, Unrefined Organic Muscovado Sugar.",
+      "nutritionalInfo": {
+        "protein": "9g per 100g",
+        "calories": "560 kcal",
+        "carbs": "28g",
+        "fats": "46g",
+        "fiber": "11g"
+      },
+      "expiryDate": "2027-12-31",
+      "stock": 36,
+      "rating": 4.9,
+      "reviewCount": 143,
+      "images": [
+        "/src/assets/images/product_healthy_snacks_1793517248810.jpg"
+      ],
+      "tags": [
+        "Artisanal",
+        "Bestseller"
+      ],
+      "isFeatured": true
+    },
+    {
+      "id": "p-sugarfree-almond-choc",
+      "name": "Sugar-Free Roasted Almond Dark Chocolate Bar",
+      "categoryId": "cat-chocolates",
+      "categoryName": "CHOCOLATES",
+      "price": 320,
+      "discountPrice": 269,
+      "description": "Silky 70% dark chocolate packed with roasted California almond bites and sweetened with plant-based stevia. Keto-friendly and diabetic friendly.",
+      "weight": "100 g Bar",
+      "ingredients": "Cacao Mass, Roasted Almonds (25%), Cacao Butter, Stevia Leaf Extract, Erythritol.",
+      "nutritionalInfo": {
+        "protein": "11g per 100g",
+        "calories": "510 kcal",
+        "carbs": "18g net",
+        "fats": "44g",
+        "fiber": "14g"
+      },
+      "expiryDate": "2027-11-15",
+      "stock": 25,
+      "rating": 4.8,
+      "reviewCount": 79,
+      "images": [
+        "/src/assets/images/product_healthy_snacks_1793517248810.jpg"
+      ],
+      "tags": [
+        "Sugar Free",
+        "Keto"
+      ]
+    },
+    {
+      "id": "p-gym-shaker-gold",
+      "name": "AETHER Pro Stainless Steel Shaker Bottle 750ml",
+      "categoryId": "cat-accessories",
+      "categoryName": "GYM ACCESSORIES",
+      "price": 999,
+      "discountPrice": 799,
+      "description": "Food-grade 304 double-wall insulated stainless steel shaker. Keeps beverages ice-cold for 24 hours. Leak-proof flip cap, silent wire blender mesh, matte black & brass gold finish.",
+      "weight": "750 ml Capacity",
+      "ingredients": "18/8 Pro Grade Stainless Steel, BPA-Free Polypropylene Lid, Silicone Gasket.",
+      "nutritionalInfo": {
+        "protein": "N/A",
+        "calories": "N/A",
+        "carbs": "N/A",
+        "fats": "N/A"
+      },
+      "expiryDate": "Lifetime Product",
+      "stock": 45,
+      "rating": 5,
+      "reviewCount": 198,
+      "images": [
+        "/src/assets/images/product_gym_shaker_1793517248283.jpg"
+      ],
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+      "tags": [
+        "Gym Essential",
+        "Bestseller"
+      ],
+      "isFeatured": true
+    },
+    {
+      "id": "p-gallon-water-bottle",
+      "name": "2.2L Hydration Gallon Sipper with Time Markers",
+      "categoryId": "cat-accessories",
+      "categoryName": "GYM ACCESSORIES",
+      "price": 699,
+      "discountPrice": 499,
+      "description": "Ergonomic daily hydration jug with motivational hourly milestones. Eastman Tritan BPA-free material with heavy-duty carrying strap and pop-up straw.",
+      "weight": "2200 ml Capacity",
+      "ingredients": "BPA-Free Tritan Co-polyester, Food-grade Silicone.",
+      "nutritionalInfo": {
+        "protein": "N/A",
+        "calories": "N/A",
+        "carbs": "N/A",
+        "fats": "N/A"
+      },
+      "expiryDate": "Lifetime Product",
+      "stock": 30,
+      "rating": 4.7,
+      "reviewCount": 88,
+      "images": [
+        "/src/assets/images/product_gym_shaker_1793517248283.jpg"
+      ],
+      "tags": [
+        "Hydration",
+        "Trending"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1793519923864",
+      "orderNumber": "SNT-MYS-923864",
+      "customerId": "usr-1793518842518",
+      "customerName": "Valued Customer",
+      "customerPhone": "7892566419",
+      "deliveryAddress": {
+        "id": "addr-mys-default",
+        "lat": 12.2895,
+        "lng": 76.6265,
+        "area": "Kuvempunagar",
+        "city": "Mysuru",
+        "type": "Home",
+        "phone": "7892566419",
+        "pincode": "570023",
+        "landmark": "Near Kamakshi Hospital",
+        "isDefault": true,
+        "houseNumber": "#142, 5th Cross",
+        "recipientName": "Valued Customer"
+      },
+      "items": [
+        {
+          "product": {
+            "id": "p-whey-gold",
+            "name": "AURA Gold Series 100% Whey Isolate",
+            "tags": [
+              "Bestseller",
+              "Gym Essential",
+              "Fast Delivery"
+            ],
+            "price": 5499,
+            "stock": 27,
+            "images": [
+              "/src/assets/images/product_whey_protein_1793517247259.jpg",
+              "/src/assets/images/hero_shivanandi_delivery_1793517246862.jpg"
+            ],
+            "rating": 4.9,
+            "weight": "2.2 kg (4.85 lbs)",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+            "categoryId": "cat-protein",
+            "expiryDate": "2027-09-30",
+            "isFeatured": true,
+            "description": "Ultra-pure micro-filtered whey protein isolate imported directly. Packed with 27g protein and 6.2g BCAAs per scoop with zero added sugars. Ultra-fast digestion for post-workout muscle repair.",
+            "ingredients": "Whey Protein Isolate, Cocoa Powder, Natural Dark Chocolate Flavors, Digestive Enzyme Complex (DigeZyme), Stevia Leaf Extract.",
+            "reviewCount": 142,
+            "categoryName": "PROTEIN & FITNESS",
+            "discountPrice": 4899,
+            "nutritionalInfo": {
+              "fats": "0.4g",
+              "carbs": "1.2g",
+              "fiber": "0.5g",
+              "protein": "27g",
+              "calories": "118 kcal"
+            }
+          },
+          "quantity": 1,
+          "unitPrice": 4899,
+          "totalPrice": 4899
+        }
+      ],
+      "subtotal": 4899,
+      "deliveryFee": 0,
+      "discountAmount": 0,
+      "couponCode": null,
+      "totalAmount": 4899,
+      "paymentStatus": "paid",
+      "paymentMethod": "upi",
+      "razorpayPaymentId": "pay_1793519922358_i92s7m",
+      "status": "DELIVERY_PARTNER_ASSIGNED",
+      "deliveryDistanceKm": 1.8,
+      "estimatedDeliveryMins": 17,
+      "statusHistory": [
+        {
+          "status": "DELIVERY_PARTNER_ASSIGNED",
+          "timestamp": "2026-11-01T07:58:43.864+00:00",
+          "note": "Fetched from Supabase database"
+        }
+      ],
+      "createdAt": "2026-11-01T07:58:43.864+00:00",
+      "updatedAt": "2026-11-01T07:58:43.864+00:00"
+    },
+    {
+      "customerName": "Nandita Nataraj",
+      "customerPhone": "7892566419",
+      "deliveryAddress": {
+        "lat": 12.305,
+        "lng": 76.64,
+        "area": "Saraswathipuram",
+        "city": "Mysuru",
+        "street": "Saraswathipuram Main Road",
+        "houseNo": "#124, 3rd Cross",
+        "pincode": "570009"
+      },
+      "items": [
+        {
+          "product": {
+            "id": "p-whey-isolate",
+            "name": "100% Ultra Pure Whey Protein Isolate",
+            "price": 3199,
+            "images": [
+              "/src/assets/images/product_whey_protein_1793517247259.jpg"
+            ],
+            "discountPrice": 2599
+          },
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2599,
+      "deliveryFee": 0,
+      "discountAmount": 50,
+      "couponCode": "WELCOME50",
+      "totalAmount": 2549,
+      "paymentMethod": "UPI",
+      "deliveryDistanceKm": 1.2,
+      "estimatedDeliveryMins": 18,
+      "id": "ord-1793519749588",
+      "orderNumber": "SNT-MYS-749588",
+      "paymentStatus": "paid",
+      "razorpayPaymentId": "pay_test_mysuru_101",
+      "status": "DELIVERY_PARTNER_ASSIGNED",
+      "statusHistory": [
+        {
+          "status": "DELIVERY_PARTNER_ASSIGNED",
+          "timestamp": "2026-11-01T07:55:49.588+00:00",
+          "note": "Fetched from Supabase database"
+        }
+      ],
+      "createdAt": "2026-11-01T07:55:49.588+00:00",
+      "updatedAt": "2026-11-01T07:55:49.588+00:00",
+      "deliveryPartner": {
+        "id": "dp-1",
+        "name": "Manjunath K.",
+        "phone": "9845012345",
+        "currentLat": 12.302,
+        "currentLng": 76.6385,
+        "lastUpdated": "2026-11-01T07:55:49.590Z"
+      },
+      "customerId": "usr-guest"
+    },
+    {
+      "customerId": "usr-guest",
+      "customerName": "Nandita N.",
+      "customerPhone": "7892566419",
+      "deliveryAddress": {
+        "id": "addr-default-mysuru",
+        "type": "Home",
+        "recipientName": "Nandita N.",
+        "phone": "7892566419",
+        "houseNumber": "#34, 4th Main, 12th Cross",
+        "landmark": "Near Kamakshi Hospital Circle",
+        "area": "Kuvempunagar",
+        "city": "Mysuru",
+        "pincode": "570023",
+        "lat": 12.2895,
+        "lng": 76.6265,
+        "isDefault": true
+      },
+      "items": [
+        {
+          "product": {
+            "id": "p-whey-gold",
+            "name": "AURA Gold Series 100% Whey Isolate",
+            "categoryId": "cat-protein",
+            "categoryName": "PROTEIN & FITNESS",
+            "price": 5499,
+            "discountPrice": 4899,
+            "description": "Ultra-pure micro-filtered whey protein isolate imported directly. Packed with 27g protein and 6.2g BCAAs per scoop with zero added sugars. Ultra-fast digestion for post-workout muscle repair.",
+            "weight": "2.2 kg (4.85 lbs)",
+            "ingredients": "Whey Protein Isolate, Cocoa Powder, Natural Dark Chocolate Flavors, Digestive Enzyme Complex (DigeZyme), Stevia Leaf Extract.",
+            "nutritionalInfo": {
+              "protein": "27g",
+              "calories": "118 kcal",
+              "carbs": "1.2g",
+              "fats": "0.4g",
+              "fiber": "0.5g"
+            },
+            "expiryDate": "2027-09-30",
+            "stock": 28,
+            "rating": 4.9,
+            "reviewCount": 142,
+            "images": [
+              "/src/assets/images/product_whey_protein_1793517247259.jpg",
+              "/src/assets/images/hero_shivanandi_delivery_1793517246862.jpg"
+            ],
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+            "tags": [
+              "Bestseller",
+              "Gym Essential",
+              "Fast Delivery"
+            ],
+            "isFeatured": true
+          },
+          "quantity": 1,
+          "unitPrice": 4899,
+          "totalPrice": 4899
+        }
+      ],
+      "subtotal": 4899,
+      "deliveryFee": 0,
+      "discountAmount": 0,
+      "totalAmount": 4899,
+      "deliveryDistanceKm": 1.8,
+      "estimatedDeliveryMins": 17,
+      "id": "ord-1793517931271",
+      "orderNumber": "SNT-MYS-931270",
+      "paymentStatus": "paid",
+      "paymentMethod": "upi",
+      "razorpayPaymentId": "pay_1793517927484_g8g2zv",
+      "razorpayOrderId": "order_1793517925908_asxi2",
+      "status": "DELIVERED",
+      "statusHistory": [
+        {
+          "status": "ORDER_PLACED",
+          "timestamp": "2026-11-01T07:25:31.271Z",
+          "note": "Order successfully placed by customer"
+        },
+        {
+          "status": "PAYMENT_CONFIRMED",
+          "timestamp": "2026-11-01T07:25:31.271Z",
+          "note": "Online payment verified via UPI (Ref: pay_1793517927484_g8g2zv)"
+        },
+        {
+          "status": "ORDER_ACCEPTED",
+          "timestamp": "2026-11-01T07:25:31.271Z",
+          "note": "Order automatically accepted by store"
+        },
+        {
+          "status": "PREPARING_ORDER",
+          "timestamp": "2026-11-01T07:25:31.272Z",
+          "note": "Packing station preparing fitness items"
+        },
+        {
+          "status": "DELIVERY_PARTNER_ASSIGNED",
+          "timestamp": "2026-11-01T07:25:31.272Z",
+          "note": "Delivery partner Manjunath K. assigned"
+        },
+        {
+          "status": "ORDER_ACCEPTED",
+          "timestamp": "2026-11-01T07:31:00.483Z",
+          "note": "Order accepted by store"
+        },
+        {
+          "status": "ORDER_PACKED",
+          "timestamp": "2026-11-01T07:31:03.174Z",
+          "note": "Tamper-evident sealed"
+        },
+        {
+          "status": "DELIVERED",
+          "timestamp": "2026-11-01T07:31:08.295Z",
+          "note": "Delivered to customer"
+        }
+      ],
+      "createdAt": "2026-11-01T07:25:31.271Z",
+      "updatedAt": "2026-11-01T07:31:08.295Z",
+      "deliveryPartner": {
+        "id": "dp-1",
+        "name": "Manjunath K.",
+        "phone": "9845012345",
+        "currentLat": 12.302,
+        "currentLng": 76.6385,
+        "lastUpdated": "2026-11-01T07:25:31.272Z"
+      }
+    }
+  ],
+  "coupons": [
+    {
+      "code": "WELCOME50",
+      "type": "fixed",
+      "value": 50,
+      "minOrderValue": 299,
+      "description": "Flat ₹50 OFF on your order above ₹299",
+      "validUntil": "2027-12-31",
+      "isActive": true
+    },
+    {
+      "code": "FITMYSURU",
+      "type": "percentage",
+      "value": 15,
+      "minOrderValue": 699,
+      "description": "15% OFF up to ₹150 for Mysuru fitness enthusiasts",
+      "validUntil": "2027-12-31",
+      "isActive": true
+    },
+    {
+      "code": "BULKGYM",
+      "type": "percentage",
+      "value": 20,
+      "minOrderValue": 1999,
+      "description": "Special 20% discount on orders over ₹1,999",
+      "validUntil": "2027-12-31",
+      "isActive": true
+    },
+    {
+      "code": "FREEDEL",
+      "type": "free_delivery",
+      "value": 0,
+      "minOrderValue": 399,
+      "description": "Free delivery on orders above ₹399",
+      "validUntil": "2027-12-31",
+      "isActive": true
+    }
+  ],
+  "deliveryPartners": [
+    {
+      "id": "dp-1",
+      "name": "Manjunath K.",
+      "phone": "9845012345",
+      "vehicleNumber": "KA-09-EM-4821 (Hero Splendor)",
+      "status": "on_delivery",
+      "currentLat": 12.302,
+      "currentLng": 76.6385,
+      "rating": 4.9,
+      "assignedOrderId": "ord-1793519749588"
+    },
+    {
+      "id": "dp-2",
+      "name": "Suresh Gowda",
+      "phone": "9900112233",
+      "vehicleNumber": "KA-09-HE-9102 (TVS Jupiter)",
+      "status": "available",
+      "currentLat": 12.311,
+      "currentLng": 76.645,
+      "rating": 4.8
+    },
+    {
+      "id": "dp-3",
+      "name": "Chetan Kumar",
+      "phone": "9741223344",
+      "vehicleNumber": "KA-09-JK-5531 (Honda Activa 6G)",
+      "status": "available",
+      "currentLat": 12.298,
+      "currentLng": 76.632,
+      "rating": 4.95
+    }
+  ],
+  "users": [
+    {
+      "id": "usr-1793518842518",
+      "phone": "7892566419",
+      "name": "Customer (6419)",
+      "isVerified": true,
+      "addresses": [
+        {
+          "id": "addr-mys-default",
+          "type": "Home",
+          "recipientName": "Valued Customer",
+          "phone": "7892566419",
+          "houseNumber": "#142, 5th Cross",
+          "landmark": "Near Kamakshi Hospital",
+          "area": "Kuvempunagar",
+          "city": "Mysuru",
+          "pincode": "570023",
+          "lat": 12.2895,
+          "lng": 76.6265,
+          "isDefault": true
+        }
+      ]
+    }
+  ],
+  "otps": {}
+}
